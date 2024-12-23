@@ -21,3 +21,7 @@ pymongo
 pypdf
 docx2txt
 llama_index_vector_stores_mongodb
+
+tiktoken
+
+scikit-learn

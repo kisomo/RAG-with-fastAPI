@@ -7,6 +7,11 @@ from typing import List
 from langchain_core.documents import Document
 import os
 
+#from pymongo import MongoClient
+from dotenv import load_dotenv 
+load_dotenv() # This loads the environment
+os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+
 # Initialize text splitter and embedding function
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200, length_function=len)
 embedding_function = OpenAIEmbeddings()
@@ -23,7 +28,6 @@ def load_and_split_document(file_path: str) -> List[Document]:
         loader = UnstructuredHTMLLoader(file_path)
     else:
         raise ValueError(f"Unsupported file type: {file_path}")
-
     documents = loader.load()
     return text_splitter.split_documents(documents)
 

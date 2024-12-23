@@ -16,6 +16,10 @@ logging.basicConfig(filename='app.log', level=logging.INFO)
 # Initialize FastAPI app
 app = FastAPI()
 
+@app.get("/")
+async def root():
+    return "welcome"
+
 # Chat Endpoint:
 # This endpoint handles chat interactions. It generates a session ID if not provided, retrieves chat history, 
 # invokes the RAG chain to generate a response, logs the interaction, and returns the response.
@@ -73,7 +77,6 @@ def list_documents():
 @app.post("/delete-doc")
 def delete_document(request: DeleteFileRequest):
     chroma_delete_success = delete_doc_from_chroma(request.file_id)
-
     if chroma_delete_success:
         db_delete_success = delete_document_record(request.file_id)
         if db_delete_success:

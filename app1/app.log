@@ -1,0 +1,29 @@
+INFO:root:Session ID: 23, User Query: how big is the data base?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 23, AI Response: The size of a database can vary significantly depending on its purpose and the amount of data it holds. Databases can range from just a few megabytes to several terabytes or even petabytes for large organizations or applications with extensive data. Could you provide more context about which database you are referring to?
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+WARNING:pypdf._reader:Ignoring wrong pointing object 49 0 (offset 0)
+WARNING:pypdf._reader:Ignoring wrong pointing object 56 0 (offset 0)
+WARNING:pypdf._reader:Ignoring wrong pointing object 61 0 (offset 0)
+WARNING:pypdf._reader:Ignoring wrong pointing object 88 0 (offset 0)
+WARNING:pypdf._reader:Ignoring wrong pointing object 109 0 (offset 0)
+WARNING:pypdf._reader:Ignoring wrong pointing object 115 0 (offset 0)
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: 23, User Query: how big is the data base?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 23, AI Response: The specific size of a database can vary widely depending on its content and purpose. Databases can range from a few megabytes to multiple terabytes or more, depending on the type of data stored and the number of records. If you are referring to a specific database related to kinesiology or another field, please provide more details for a more accurate answer.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: 23, User Query: which University did Terrence Muthoka do his undergraduate degree?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 23, AI Response: Terrence Muthoka completed his undergraduate degree at the University of Nairobi, where he earned a B.A. in Mathematics and Economics from 2002 to 2006.
+INFO:root:Session ID: string, User Query: Which University did Terrence Muthoka do his bachelor's degree?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: string, AI Response: Terrence Muthoka completed his bachelor's degree at the University of Nairobi, where he earned a B.A. in Mathematics and Economics from 2002 to 2006.

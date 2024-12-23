@@ -88,7 +88,7 @@ def delete_doc_from_chroma(file_id: int):
 '''
 
 ################################################################################################################
-
+'''
 import os
 from pymongo import MongoClient
 from dotenv import load_dotenv 
@@ -190,7 +190,7 @@ def index_document_to_chroma(file_path: str, file_id: int) -> bool:
         print(f"Error indexing document: {e}")
         return False
 
-
+'''
 
 
 
