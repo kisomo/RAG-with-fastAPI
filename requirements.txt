@@ -9,9 +9,15 @@ langchain-core
 langchain_community
 docx2txt
 pypdf
-#langchain_chroma
+langchain_chroma
 python-multipart
 fastapi
 uvicorn
+python-dotenv
 
-
+llama_index
+openai
+pymongo
+pypdf
+docx2txt
+llama_index_vector_stores_mongodb
